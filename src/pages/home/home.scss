@@ -1,0 +1,16 @@
+.home-container {
+  .cards-container {
+    margin: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    @media (max-width: 768px) {      
+      background-color: white;
+      padding: 0;
+      margin: 10px;
+    }
+  }
+  
+}

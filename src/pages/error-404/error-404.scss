@@ -1,0 +1,25 @@
+.error-container{
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    h2{
+        margin: 0;
+        color: #ff6060;
+        font-size: 300px;
+        @media (max-width: 768px) {
+            font-size: 100px;
+        }
+    }
+    .error-text{
+        color: #ff6060;
+        font-size: 20px;
+        text-align: center;
+        width: 50%;
+    }
+    .link-text{
+        color: black;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,47 @@
+.collapse-element {
+  background-color: #ff6060;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 1000;
+  padding: 0 15px;
+  margin-top: 20px;
+
+  .collapse-toggle {
+    transition: transform 0.5s ease; 
+    cursor: pointer;
+  }
+
+  .collapse-toggle.open {
+    transform: rotate(-180deg); 
+  }
+}
+
+
+.collapse-content {
+  width: 95%;
+  margin: auto;
+  line-height: 1.5;
+  max-height: 0;
+  overflow: hidden;
+  //height: 0;
+  transition: all 0.5s ease;
+  
+  &.open {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 500px;
+    //height: 100px;
+    transition: all 0.5s ease;
+  }
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  line-height: 1.5;
+}
